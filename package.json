@@ -1,20 +1,17 @@
 {
   "name": "tweeteroapi",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "type": "module",
+  "main": "app.js",
   "scripts": {
     "dev":"nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabrielbarbosagit/TweeteroAPI.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabrielbarbosagit/TweeteroAPI/issues"
-  },
-  "homepage": "https://github.com/gabrielbarbosagit/TweeteroAPI#readme"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
 }
